@@ -1,0 +1,32 @@
+---
+email_addr:
+  allowed: []
+  format: string
+  settable: true
+  unit: ''
+jtemp:
+  allowed: []
+  format: number
+  settable: true
+  unit: ''
+ledd1:
+  allowed: []
+  format: string
+  settable: true
+  unit: ''
+ontime:
+  allowed: []
+  format: number
+  settable: true
+  unit: ''
+usrsw1:
+  allowed: []
+  format: number
+  settable: true
+  unit: ''
+usrsw2:
+  allowed: []
+  format: number
+  settable: true
+  unit: ''
+

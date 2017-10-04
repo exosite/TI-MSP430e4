@@ -1,0 +1,12 @@
+Ideas about the dashboard configuration    
+LED Pane:
+    # In this iteration it is going to be an indicator light. Read only.
+    led: is a switch that can be turned on and off.
+Ontime Pane:
+    ontime: number box
+Switch Pane
+    usrsw1: number box
+    usrsw2: number box
+Temperatue Pane:
+    temp: line graph
+    temp: gauge
