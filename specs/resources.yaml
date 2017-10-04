@@ -7,7 +7,7 @@ email_addr:
 jtemp:
   allowed: []
   format: number
-  settable: true
+  settable: false
   unit: ''
 ledd1:
   allowed: []
@@ -17,16 +17,16 @@ ledd1:
 ontime:
   allowed: []
   format: number
-  settable: true
+  settable: false
   unit: ''
 usrsw1:
   allowed: []
   format: number
-  settable: true
+  settable: false
   unit: ''
 usrsw2:
   allowed: []
   format: number
-  settable: true
+  settable: false
   unit: ''
 
