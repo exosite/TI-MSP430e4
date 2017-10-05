@@ -1,16 +1,16 @@
-# TI-MSP430e4 Development Kit Application
+# TI-MSP432e4 Development Kit Application
 This repository holds the Exosite assets and code that setup the development kit experience on Exosite's Murano platform. This code can be cloned and deployed on its own or added to your Murano account through Exosite Exchange. {Link to Exosite Exchange}
 
 ## Repository Contents
 
-* Specification of the MSP430 represented as a Murano Product.
+* Specification of the MSP432 represented as a Murano Product.
 * A [Freeboard](https://freeboard.io) application put into a Murano Application configuration.
 
-The source code for the application running on your MSP430 device can be found here: {Link}
+The source code for the application running on your MSP432 device can be found here: {Link}
 
 ## Requirements
 
-* MSP430e4 development kit {link to the dev kit on TI's site}
+* MSP432e4 development kit {link to the dev kit on TI's site}
 * [MuranoCLI](https://github.com/exosite/muranocli)
 * An account on [exosite.io](https://exosite.io)
 
@@ -22,7 +22,7 @@ The source code for the application running on your MSP430 device can be found h
 
 ## Steps to setup outside of Exosite Exchange.
 
-* Clone this repository ```git clone https://github.com/exosite/TI-MSP430e4.git```
+* Clone this repository ```git clone https://github.com/exosite/TI-MSP432e4.git```
 * Initialize the repository in order to prepare it for deployment ```murano init```
 * Create a new blank Murano Solution Application. 
 * Push this code to your Murano Application Soution with ```murano syncup```
