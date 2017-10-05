@@ -7,6 +7,6 @@ Ontime Pane:
 Switch Pane
     usrsw1: number box
     usrsw2: number box
-Temperatue Pane:
+Temperature Pane:
     temp: line graph
     temp: gauge

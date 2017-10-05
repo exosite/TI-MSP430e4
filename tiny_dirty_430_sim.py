@@ -22,7 +22,7 @@ read_headers = {
     'X-Exosite-CIK': token
     }
 
-led_reset_payload = {'led': 0}
+led_reset_payload = {'ledd1': 0}
 
 print("Reseting LED state.")
 resp = requests.post(device_api_host, headers = write_headers, data = led_reset_payload)
@@ -54,7 +54,7 @@ while True:
     print(resp.text) 
 
     print("Fetching LED state.")
-    resp = requests.get(device_api_host + "?led", headers = read_headers)
+    resp = requests.get(device_api_host + "?ledd1", headers = read_headers)
     print(resp.status_code)
     print(resp.text)     
     time.sleep(4)

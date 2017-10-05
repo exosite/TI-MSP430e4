@@ -14,6 +14,11 @@ ontime:
   format: number
   settable: false
   unit: ''
+temp:
+  allowed: []
+  format: number
+  settable: false
+  unit: ''
 usrsw1:
   allowed: []
   format: number
@@ -24,4 +29,3 @@ usrsw2:
   format: number
   settable: false
   unit: ''
-

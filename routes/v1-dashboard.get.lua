@@ -8,21 +8,21 @@ local function injectDatasources(datasources)
 	end
 
 	for _, sn in ipairs(ret.value) do
-		local name = sn .. ' GWE'
-		local idx, _ = table.find(datasources, 'name', name)
-		if idx == nil then
-			local ads = {
-				name = sn .. ' GWE',
-				type = 'JSON',
-				settings = {
-					method = 'GET',
-					refresh = 10,
-					url = '/v1/report/' .. sn,
-					use_thingproxy = false
-				}
-			}
-			datasources[#datasources + 1] = ads
-		end
+		-- local name = sn .. ' Keystore'
+		-- local idx, _ = table.find(datasources, 'name', name)
+		-- if idx == nil then
+		-- 	local ads = {
+		-- 		name = sn .. ' Keystore',
+		-- 		type = 'JSON',
+		-- 		settings = {
+		-- 			method = 'GET',
+		-- 			refresh = 10,
+		-- 			url = '/v1/report/' .. sn,
+		-- 			use_thingproxy = false
+		-- 		}
+		-- 	}
+		-- 	datasources[#datasources + 1] = ads
+		-- end
 
 		name = sn .. ' Timeseries'
 		idx, _ = table.find(datasources, 'name', name)

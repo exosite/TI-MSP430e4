@@ -24,7 +24,7 @@ The source code for the application running on your MSP430 device can be found h
 
 * Clone this repository ```git clone https://github.com/exosite/TI-MSP430e4.git```
 * Initialize the repository in order to prepare it for deployment ```murano init```
-* Create a new blank solution application. 
+* Create a new blank Murano Solution Application. 
 * Push this code to your Murano Application Soution with ```murano syncup```
 
 
