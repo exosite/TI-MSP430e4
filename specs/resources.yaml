@@ -1,10 +1,5 @@
 ---
-email_addr:
-  allowed: []
-  format: string
-  settable: true
-  unit: ''
-ledd1:
+led:
   allowed: []
   format: string
   settable: true
