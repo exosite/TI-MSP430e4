@@ -4,11 +4,6 @@ email_addr:
   format: string
   settable: true
   unit: ''
-jtemp:
-  allowed: []
-  format: number
-  settable: false
-  unit: ''
 ledd1:
   allowed: []
   format: string

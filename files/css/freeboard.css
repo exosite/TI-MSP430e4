@@ -1111,11 +1111,11 @@ a:focus {
 }
 
 .gridster header {
-	background-color: #272727;
+	background-color: #110e0e;
 	height: 30px;
 	margin: 0;
 	padding: 0 10px 0 10px;
-	color: #8b8b8b;
+	color: #ffffff;
 	text-transform: uppercase;
 }
 
@@ -1167,7 +1167,7 @@ header h1 {
 	left: 0;
 	right: 0;
 	width: 50px;
-	background-color: #313131;
+	background-color: #110e0e;
 	text-align: center;
 	cursor: pointer;
 }
