@@ -1262,6 +1262,7 @@ header h1 {
 	padding: 0px;
 	margin: 0px;
 	line-height: normal;
+  color: #a5a5a5;
 }
 
 .sub-section {
@@ -1303,6 +1304,7 @@ header h1 {
 
 .section-title {
 	min-height: 7px;
+  color: #a5a5a5;
 }
 
 .small-text {
