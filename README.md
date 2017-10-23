@@ -1,4 +1,4 @@
-# TI-MSP432e4 Development Kit Application
+# TI-SimpleLink Development Kit Application
 This repository holds the Exosite assets and code that setup the development kit experience on Exosite's Murano platform. This code can be cloned and deployed on its own or added to your Murano account through [Exosite Exchange](https://www.exosite.io/business/exchange/catalog#/?_k=dnrhld).
 
 ## Repository Contents
