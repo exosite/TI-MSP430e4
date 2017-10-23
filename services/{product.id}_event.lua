@@ -70,7 +70,7 @@ for _, tsval in ipairs(event.payload) do
 			-- 	ts = ts
 			-- }
 			local toWrite = {
-				tags = { identity = "00:11:22:33:44:55", sn = event.identity },
+				tags = { identity = event.identity, sn = event.identity },
 				metrics = {},
 				ts = ts
 			}

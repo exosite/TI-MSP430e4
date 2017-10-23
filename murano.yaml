@@ -1,0 +1,35 @@
+formatversion: 1.0.0
+
+info:
+  name: TI SimpleLink LaunchPad Dashboard Application
+  summary: Web application meant to display data sent to Murano by a TI SimpleLink LaunchPad,
+  description: |
+    This web application is a dashboard application based off of the open soruce Project Freeboard https://github.com/freeboard/freedboard.
+    It is meant to be explicitly used with a TI SimpleLink LaunchPad to visualize the data sent by the demo application flashed, by default
+    to the board. It is capable of being extended to visualize additional device metrics or data sent by additional devices.
+  authors: ['Martin Davis <martindavis@exosite.com>, Mike Tilstra <miketilstra@exosite.com>, Will Charlton <willcharlton@exosite.com>']
+  version: 1.0.0
+
+assets:
+  location: files
+  include: '**/*'
+  exclude: ['**/.*']
+  default_page: index.html
+
+endpoints:
+  location: 
+  include: '**/*.lua'
+  exclude: ['*_test.lua', '*_spec.lua']
+  cors: {'origin': ['http://localhost:*']}
+
+modules:
+  location: modules
+  include: '**/*.lua'
+  exclude: ['*_test.lua', '*_spec.lua']
+
+services:
+  location: services
+  include: '**/*.lua'
+  exclude: ['*_test.lua', '*_spec.lua']
+
+init_script: init.lua
