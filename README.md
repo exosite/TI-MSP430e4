@@ -1,16 +1,16 @@
-# TI-SimpleLink Development Kit Application
-This repository holds the Exosite assets and code that setup the development kit experience on Exosite's Murano platform. This code can be cloned and deployed on its own or added to your Murano account through [Exosite Exchange](https://www.exosite.io/business/exchange/catalog#/?_k=dnrhld).
+# TI-SimpleLink LaunchPad Application
+This repository holds the Exosite assets and code that setup the LaunchPad experience on Exosite's Murano platform. This code can be cloned and deployed on its own or added to your Murano account through [Exosite Exchange](https://www.exosite.io/business/exchange/catalog#/?_k=dnrhld).
 
 ## Repository Contents
 
-* Specification of the SimpleLink development kit represented as a Murano Product.
+* Specification of the SimpleLink LaunchPad represented as a Murano Product.
 * A modified [Freeboard](https://freeboard.io) application put into a Murano Application configuration.
 
 The source code for the application running on your SimpleLink device can be found here: {Link}
 
 ## Requirements
 
-* TI SimpleLink development kit {link to the dev kit on TI's site}
+* TI SimpleLink LaunchPad {link to the dev kit on TI's site}
 * [MuranoCLI](https://github.com/exosite/muranocli)
 * An account on [exosite.io](https://exosite.io)
 
