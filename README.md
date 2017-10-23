@@ -1,32 +1,31 @@
 # TI-MSP432e4 Development Kit Application
-This repository holds the Exosite assets and code that setup the development kit experience on Exosite's Murano platform. This code can be cloned and deployed on its own or added to your Murano account through Exosite Exchange. {Link to Exosite Exchange}
+This repository holds the Exosite assets and code that setup the development kit experience on Exosite's Murano platform. This code can be cloned and deployed on its own or added to your Murano account through [Exosite Exchange](https://www.exosite.io/business/exchange/catalog#/?_k=dnrhld).
 
 ## Repository Contents
 
-* Specification of the MSP432 represented as a Murano Product.
-* A [Freeboard](https://freeboard.io) application put into a Murano Application configuration.
+* Specification of the SimpleLink development kit represented as a Murano Product.
+* A modified [Freeboard](https://freeboard.io) application put into a Murano Application configuration.
 
-The source code for the application running on your MSP432 device can be found here: {Link}
+The source code for the application running on your SimpleLink device can be found here: {Link}
 
 ## Requirements
 
-* MSP432e4 development kit {link to the dev kit on TI's site}
+* TI SimpleLink development kit {link to the dev kit on TI's site}
 * [MuranoCLI](https://github.com/exosite/muranocli)
 * An account on [exosite.io](https://exosite.io)
 
 ## Steps to setup with Exosite's Exchange.
 
-* Go to the Exchange tab of your Exosite account.
-* Click on {this} Exchange card, and purchase (for free) this applicaiton.
-* Create a new Murano Application Solution and choose this application. 
+* Go to the [Exchange tab](https://www.exosite.io/business/exchange/catalog#/?_k=dnrhld) of your Exosite account.
+* Click on the TI SimpleLink Dashboard Exchange card, and add this application to your Business.
+* Create a new Murano Application Solution and choose this application in the drop-down menu.
 
 ## Steps to setup outside of Exosite Exchange.
 
-* Clone this repository ```git clone https://github.com/exosite/TI-MSP432e4.git```
-* Initialize the repository in order to prepare it for deployment ```murano init```
+* Clone this repository ```git clone https://github.com/exosite/TI-SimpleLink``` using git. 
+* Initialize the repository in order to prepare it for deployment to Murano with the [MuranoCLI tool](https://github.com/exosite/muranocli)```murano init```
 * Create a new blank Murano Solution Application. 
 * Push this code to your Murano Application Soution with ```murano syncup```
-
 
 ## Where can I get help?
 
