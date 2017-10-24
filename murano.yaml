@@ -8,16 +8,16 @@ info:
     It is meant to be explicitly used with a TI SimpleLink LaunchPad to visualize the data sent by the demo application flashed, by default
     to the board. It is capable of being extended to visualize additional device metrics or data sent by additional devices.
   authors: ['Martin Davis <martindavis@exosite.com>, Mike Tilstra <miketilstra@exosite.com>, Will Charlton <willcharlton@exosite.com>']
-  version: 1.0.0
+  version: 0.0.2
 
 assets:
-  location: files
+  location: assets
   include: '**/*'
-  exclude: ['**/.*']
+  exclude: ['**._html/.*_html']
   default_page: index.html
 
 endpoints:
-  location: 
+  location: endpoints
   include: '**/*.lua'
   exclude: ['*_test.lua', '*_spec.lua']
   cors: {'origin': ['http://localhost:*']}
@@ -30,6 +30,6 @@ modules:
 services:
   location: services
   include: '**/*.lua'
-  exclude: ['*_test.lua', '*_spec.lua']
+  exclude: ['*_test.lua', '*_spec.lua','{product.id}_event.lua']
 
 init_script: init.lua
