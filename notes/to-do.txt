@@ -4,11 +4,13 @@ Document the 'add datasource' feature
 Document how to search for metrics in database table
 Document how to add widgets to the dashboard
 update the timestamp white text color
-Tone down the widget label --check
-Take off the units in seconds. --check
 
 Solution file configuraiton
 Test pre-loaded dashboard
 Fix the sim so it writes to the correct resoruces
 Modify dirty quick simulator to activate an identity. 
 
+
+
+DONE:
+fixed bug with the temperature gauge widget.

@@ -2723,3 +2723,7 @@ input:-moz-placeholder, textarea:-moz-placeholder {
 	height: 100% !important;
 }
 
+#ti_logo {
+  position: relative;
+  bottom: 8px;
+}

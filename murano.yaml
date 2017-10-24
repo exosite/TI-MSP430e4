@@ -29,7 +29,7 @@ modules:
 
 services:
   location: services
-  include: '**/*.lua'
+  include: '**/*.lua'`
   exclude: ['*_test.lua', '*_spec.lua','{product.id}_event.lua']
 
 init_script: init.lua
