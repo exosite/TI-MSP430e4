@@ -6,14 +6,14 @@ local function injectDatasources(datasources)
 	if ret.value == nil then
 		return datasources
 	end
-	
+
 	for _, sn in ipairs(ret.value) do
 
 		name = sn .. ' All Raw Timeseries Data'
 		idx, _ = table.find(datasources, 'name', name)
 		if idx == nil then
 			local ads = {
-				name = sn .. ' Timeseries',
+				name = sn .. ' All Raw Timeseries Data',
 				type = 'JSON',
 				settings = {
 					method = 'GET',
