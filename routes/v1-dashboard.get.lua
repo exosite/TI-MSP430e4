@@ -6,25 +6,10 @@ local function injectDatasources(datasources)
 	if ret.value == nil then
 		return datasources
 	end
-
+	
 	for _, sn in ipairs(ret.value) do
-		-- local name = sn .. ' Keystore'
-		-- local idx, _ = table.find(datasources, 'name', name)
-		-- if idx == nil then
-		-- 	local ads = {
-		-- 		name = sn .. ' Keystore',
-		-- 		type = 'JSON',
-		-- 		settings = {
-		-- 			method = 'GET',
-		-- 			refresh = 10,
-		-- 			url = '/v1/report/' .. sn,
-		-- 			use_thingproxy = false
-		-- 		}
-		-- 	}
-		-- 	datasources[#datasources + 1] = ads
-		-- end
 
-		name = sn .. ' Timeseries'
+		name = sn .. ' All Raw Timeseries Data'
 		idx, _ = table.find(datasources, 'name', name)
 		if idx == nil then
 			local ads = {
@@ -43,7 +28,6 @@ local function injectDatasources(datasources)
 
 	return datasources
 end
-
 
 local got = Keystore.get{key='dashboard.0'}
 if got.code ~= nil then
