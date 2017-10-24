@@ -3,11 +3,16 @@
 resources:
 -   alias: temp
     format: number
+    settable: false
 -   alias: usrsw1
     format: number
+    settable: false
 -   alias: usrsw2
     format: number
+    settable: false
 -   alias: ontime
     format: number
+    settable: false
 -   alias: led
     format: string
+    settable: true
