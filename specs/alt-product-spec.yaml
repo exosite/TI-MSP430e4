@@ -1,0 +1,13 @@
+# Murano Product Spec File - TI SimpleLink LaunchPad
+
+resources:
+-   alias: temp
+    format: number
+-   alias: usrsw1
+    format: number
+-   alias: usrsw2
+    format: number
+-   alias: ontime
+    format: number
+-   alias: led
+    format: string
