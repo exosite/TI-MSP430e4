@@ -3,24 +3,24 @@ led:
   allowed: []
   format: string
   settable: true
-  unit: ''
+  unit: ""
 ontime:
   allowed: []
   format: number
   settable: false
-  unit: ''
+  unit: ""
 temp:
   allowed: []
   format: number
   settable: false
-  unit: ''
+  unit: ""
 usrsw1:
   allowed: []
   format: number
   settable: false
-  unit: ''
+  unit: ""
 usrsw2:
   allowed: []
   format: number
   settable: false
-  unit: ''
+  unit: ""
