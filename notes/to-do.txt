@@ -1,16 +1,7 @@
 Add a Toggle Switch widget
-Include Logo in admin bar
+Solution file configuraiton
 Document the 'add datasource' feature
 Document how to search for metrics in database table
 Document how to add widgets to the dashboard
-update the timestamp white text color
-
-Solution file configuraiton
-Test pre-loaded dashboard
-Fix the sim so it writes to the correct resoruces
-Modify dirty quick simulator to activate an identity. 
-
-
-
-DONE:
-fixed bug with the temperature gauge widget.
+change string write to keystore service
+Expand data fetch to get information on led

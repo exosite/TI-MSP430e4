@@ -15,6 +15,8 @@ local out = Tsdb.query{
   epoch = 'ms',
 }
 
+print(to_json(out))
+
 return out
 
 -- vim: set et ai sw=2 ts=2 :

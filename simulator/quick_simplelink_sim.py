@@ -6,7 +6,7 @@ import random
 import time
 
 product_id = "g1ugjd0cp01ts0000"
-identity = "00:11:22:33:44:55"
+identity = "00:11:22:33:44:66"
 print(identity)
 
 activate_api_host = "https://"+product_id+".m2.exosite.io/provision/activate"
