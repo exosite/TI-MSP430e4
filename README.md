@@ -27,7 +27,7 @@ The source code for the application running on your SimpleLink device can be fou
 * Navigate back to [your Solutions page](https://www.exosite.io/business/solutions) and add a Product by clicking on the "+ NEW SOLUTION" button and choosing the "Add a Product" option.
 * In the "Create New Solution" form, select the new Product specification you added by choosing "TI SimpleLink LaunchPad" as your Solution starting point. Choose a name that makes sense to you and complete the Product process by clicking "ADD".
 * Click on your new SimpleLink Product and copy your Product Id to your machine's clipboard. You will use this value to configure your development kit to connect to Murano.
-* Click on the Product's "SETTINGS" Tab and click on the check box "Allow development devices to connect".
+* Click on the Product's "SETTINGS" Tab and click on the check box "Allow development devices to connect" then click the "SAVE" button on the bottom of the page.
 
 ### Configuring and using your kit.
 
@@ -43,7 +43,8 @@ The source code for the application running on your SimpleLink device can be fou
 * Create a new blank Murano Solution Application by clicking on the "+ NEW SOLUTION" button and choosing the "Add a Solution" option.
 * In the "Create New Solution" form, select "Start from Scratch" as your Solution starting point. Choose a submain name that that is unique and complete the Application process by clicking "ADD".
 * Clone this repository ```git clone https://github.com/exosite/TI-SimpleLink``` using git. This will put a copy of all of the code here on your machine.
-* Initialize the repository in order to prepare it for deployment to Murano with the [MuranoCLI tool](https://github.com/exosite/muranocli) by running the init command in your terminal ```$ murano init```. It will ask you to sign in, just input your credentials like you were logging into [exosite.io](https://exosite.io).
+* Initialize the repository in order to prepare it for deployment to Murano with the [MuranoCLI tool](https://github.com/exosite/muranocli) by running the init command in your terminal ```$ murano init```. It will ask you to sign in, just input your credentials like you were logging into [exosite.io](https://exosite.io). 
+* Type 'y' when the tool warns you about unknown files, they won't hinder the deployment process.
 * Put the application code into your Murano Application Solution with ```$ murano syncup```.
 * Click on your new Application's host name and view your device's data.
 
