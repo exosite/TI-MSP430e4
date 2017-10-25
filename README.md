@@ -1,4 +1,4 @@
-# TI-SimpleLink LaunchPad Application
+# TI SimpleLink LaunchPad Application
 This repository holds the Exosite assets and application code that setup the Ti SimpleLink LaunchPad experience on Exosite's Murano platform. This code can be cloned and deployed on its own or added to your Murano account through [Exosite Exchange](https://www.exosite.io/business/exchange/catalog#/?_k=dnrhld).
 
 In here you will find a list of requirements and step-by-step instructions to deploy this application and connect your development kit to it. Just connecting your kit requires little effort, and can be done very quickly. If you would like to deploy a dasboard to view your device's data, you will need to install a few tools and run some commands in your machine's terminal.
