@@ -40,7 +40,7 @@ The source code for the application running on your SimpleLink device can be fou
 
 ### Deploying the dashboard application.
 
-* Create a new blank Murano Solution Application by clicking on the "+ NEW SOLUTION" button and choosing the "Add a Solution" option.
+* Create a new blank Murano Solution Application by clicking on the "+ NEW SOLUTION" button and choosing the "Add an Application" option.
 * In the "Create New Solution" form, select "Start from Scratch" as your Solution starting point. Choose a submain name that that is unique and complete the Application process by clicking "ADD".
 * Clone this repository ```git clone https://github.com/exosite/TI-SimpleLink``` using git. This will put a copy of all of the code here on your machine.
 * Initialize the repository in order to prepare it for deployment to Murano with the [MuranoCLI tool](https://github.com/exosite/muranocli) by running the init command in your terminal ```$ murano init```. It will ask you to sign in, just input your credentials like you were logging into [exosite.io](https://exosite.io). 

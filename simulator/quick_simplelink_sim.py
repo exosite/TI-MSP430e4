@@ -5,7 +5,10 @@ import requests
 import random
 import time
 
-product_id = "g1ugjd0cp01ts0000"
+###### CONFIGURE THIS VARIABLE ####
+product_id = ""
+######
+
 identity = "00:11:22:33:44:66"
 print(identity)
 
