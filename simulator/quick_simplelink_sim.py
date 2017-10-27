@@ -6,10 +6,10 @@ import random
 import time
 
 ###### CONFIGURE THIS VARIABLE ####
-product_id = ""
+product_id = "wpq80kcb53740000"
 ######
 
-identity = "00:11:22:33:44:66"
+identity = "00:11:22:33:44:67"
 print(identity)
 
 activate_api_host = "https://"+product_id+".m2.exosite.io/provision/activate"

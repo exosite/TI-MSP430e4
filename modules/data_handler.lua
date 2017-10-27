@@ -1,5 +1,6 @@
--- device module that handles the device's data.
-function device.data_in(event)
+local data_handler = {}
+
+function data_handler.data_in(event)
     --#EVENT {product.id} event
     Keystore.command{
         key='serialNumbers',
@@ -102,3 +103,5 @@ function device.data_in(event)
     end
     -- vim: set ai sw=2 ts=2 :
 end
+
+return data_handler
