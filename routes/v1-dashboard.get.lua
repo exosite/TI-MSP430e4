@@ -23,7 +23,7 @@ local function instantiate_dashboard()
 						"max_value": 100,
 						"min_value": 0,
 						"title": "temp",
-						"value": "datasources[\"]==]..sn..[==[ All Timeseries Data\"][\"values\"][0][3]"
+						"value": "datasources[\"]==]..sn..[==[ All Timeseries Data\"][\"values\"][0][2]"
 					},
 					"type": "gauge"
 				}],
@@ -43,7 +43,7 @@ local function instantiate_dashboard()
 						"animate": false,
 						"size": "regular",
 						"title": "usrsw2",
-						"value": "datasources[\"]==]..sn..[==[ All Timeseries Data\"][\"values\"][0][5]"
+						"value": "datasources[\"]==]..sn..[==[ All Timeseries Data\"][\"values\"][0][4]"
 					},
 					"type": "text_widget"
 				}],
@@ -63,7 +63,7 @@ local function instantiate_dashboard()
 						"animate": false,
 						"size": "regular",
 						"title": "usrsw1",
-						"value": "datasources[\"]==]..sn..[==[ All Timeseries Data\"][\"values\"][0][4]"
+						"value": "datasources[\"]==]..sn..[==[ All Timeseries Data\"][\"values\"][0][3]"
 					},
 					"type": "text_widget"
 				}],
@@ -102,7 +102,7 @@ local function instantiate_dashboard()
 						"animate": true,
 						"size": "regular",
 						"title": "ontime",
-						"value": "datasources[\"]==]..sn..[==[ All Timeseries Data\"][\"values\"][0][2]"
+						"value": "datasources[\"]==]..sn..[==[ All Timeseries Data\"][\"values\"][0][1]"
 					},
 					"type": "text_widget"
 				}],
