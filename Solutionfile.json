@@ -3,7 +3,8 @@
   "file_dir": "files",
   "custom_api": "solution_spec_assets/all_routes.lua",
   "modules": {
-    "table": "modules/table_util.lua"
+    "table": "modules/table_util.lua",
+    "device_handler": "modules/device_handler.lua"
   },
   "event_handler": {
     "device": {

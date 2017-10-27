@@ -9,7 +9,7 @@ local function instantiate_dashboard()
 	end
 
 	for _, sn in ipairs(ret.value) do
-		hard_coded_panes =[==[[{
+		hard_coded_panes = [==[[{
 				"col": {
 					"3": 2
 				},
@@ -131,7 +131,7 @@ local function injectDatasources(datasources)
 				type = 'JSON',
 				settings = {
 					method = 'GET',
-					refresh = 10,
+					refresh = 5,
 					url = '/v1/data/' .. sn,
 					use_thingproxy = false
 				}
