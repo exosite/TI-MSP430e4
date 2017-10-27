@@ -12,4 +12,4 @@
     }
   },
   "cors": {"origin": ["http://localhost:*"]}
-}w
+}
