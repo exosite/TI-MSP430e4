@@ -30,11 +30,8 @@ local out = Tsdb.query({
 
 response.message = out
 
+
 --#ENDPOINT GET /v1/dashboard
--- luacheck: globals request response (magic variables from Murano)
-
-
-l--#ENDPOINT GET /v1/dashboard
 -- luacheck: globals request response (magic variables from Murano)
 
 
