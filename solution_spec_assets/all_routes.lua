@@ -164,7 +164,7 @@ local function injectDatasources(datasources)
                 type = 'JSON',
                 settings = {
                     method = 'GET',
-                    refresh = 5,
+                    refresh = 1,
                     url = '/v1/data/' .. sn,
                     use_thingproxy = false
                 }

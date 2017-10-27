@@ -14,5 +14,5 @@ resources:
     format: number
     settable: false
 -   alias: led
-    format: string
+    format: number
     settable: true
