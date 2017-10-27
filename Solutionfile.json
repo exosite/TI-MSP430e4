@@ -8,7 +8,7 @@
   },
   "event_handler": {
     "device": {
-      "datapoint": "event_handler/{product_id}_event.lua"
+      "datapoint": "services/{product_id}_event.lua"
     }
   },
   "cors": {"origin": ["http://localhost:*"]}
